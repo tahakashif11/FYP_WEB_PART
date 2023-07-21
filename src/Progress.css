@@ -1,0 +1,22 @@
+/* Custom progress bar CSS */
+.custom-progress-bar {
+    height: 30px;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+  
+  .custom-progress-bar .progress-bar {
+    background-color: #ffbf00;
+  }
+  
+  .custom-progress-bar .progress-bar-label {
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 8px;
+  }
+  
+  .custom-progress-bar .progress-bar-label::after {
+    content: '%';
+  }
+  
